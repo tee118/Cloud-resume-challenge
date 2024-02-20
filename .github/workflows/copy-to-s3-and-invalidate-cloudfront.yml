@@ -3,7 +3,7 @@ name: Copy website to S3 and invalidate CloudFront Distribution
 on:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   copy-website-to-s3-and-invalidate-cloudfront:
