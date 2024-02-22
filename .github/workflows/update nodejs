@@ -1,3 +1,0 @@
-              - name: Update Node.js versions
-                uses: hongaar/update-node-versions@v2.2.0
-            
