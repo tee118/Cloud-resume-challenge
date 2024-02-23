@@ -56,7 +56,7 @@
           </li>
         </ul>
       </div>
-      <p>Site VisitCount: <span id="visitors"></span></p>
+      <p>Site Count: <span id="visitors"></span></p>
     </nav>
 
     <div class="container-fluid p-0">
@@ -286,7 +286,7 @@ async function get_visitors() {
     // call post api request function
     //await post_visitor();
     try {
-        let response = await fetch('https://joekqza385.execute-api.eu-west-2.amazonaws.com/default/', {
+        let response = await fetch('https://v6a34dzaoe.execute-api.eu-west-2.amazonaws.com/default/terraform_lambda_func', {
             method: 'GET',
         });
         let data = await response.json()
