@@ -14,13 +14,6 @@ provider "aws" {
   #  profile = "default"
 }
 
-   backend "s3" {
-       bucket = "tejuscv"
-       key    = "infra.tfstae"
-       region = "eu-west-2"
-   }
-
-
 # IAM Role for Lambda function
 resource "aws_iam_role" "lambda_role" {
   name = "terraform_lambda_func_Role"
