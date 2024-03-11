@@ -1,5 +1,7 @@
 terraform {
   backend "s3" {
-    key            = "infra.tfstate"
+       bucket = "[AWS_S3_BUCKET]"
+       key    = "[AWS_BUCKET_KEY_NAME]"
+       region = "east-us-1"
   }
 }
