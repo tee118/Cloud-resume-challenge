@@ -1,7 +1,7 @@
 terraform {
    backend "s3" {
-       bucket = "[AWS_S3_BUCKET]"
-       key    = "[AWS_BUCKET_KEY_NAME]"
+       bucket = "tejuscv"
+       key    = "infra.tfstae"
        region = "eu-west-2"
    }
 }
