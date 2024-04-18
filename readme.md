@@ -22,4 +22,4 @@ The Cloud Resume Challenge is a multi-phase resume project that aids in developi
 - Use Terraform to write it everything as Infrastructure as Code.
 - To automate changes and deployment, set up two GitHub repositories and utilise GitHub actions.
 
-[View mine at](https://www.devtej.com)
+[View mine](https://devtej.com)
