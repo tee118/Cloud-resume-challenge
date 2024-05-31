@@ -58,7 +58,7 @@ resource "aws_iam_policy" "iam_policy_for_lambda" {
             "dynamodb:GetItem",
             "dynamodb:PutItem"
           ],
-          "Resource" : "arn:aws:dynamodb:eu-west-2:662406500657:table/visitor_count_ddb"
+          "Resource" : "arn:aws:dynamodb:eu-west-2:171139160358:table/visitor_count_ddb"
         },
       ]
   })
@@ -198,7 +198,7 @@ resource "aws_dynamodb_table_item" "visitor_count_ddb" {
   item = <<ITEM
 {
   "id": {"S": "Visits"},
-  "visitor_count": {"N": "1"}
+  "visitor_count": {"N": "487"}
 }
 ITEM
   lifecycle {

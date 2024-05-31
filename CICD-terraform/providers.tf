@@ -1,6 +1,6 @@
 terraform {
    backend "s3" {
-       bucket = "tejuscv"
+       bucket = "tejusite"
        key    = "infra.tfstate"
        region = "eu-west-2"
    }
